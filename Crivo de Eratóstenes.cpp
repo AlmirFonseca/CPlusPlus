@@ -6,6 +6,7 @@ using namespace std;
 
 int main(){
     int n;
+    cout<<"DEVO BUSCAR NUMEROS PRIMOS DE 0 A: ";
     cin>>n;
     bool primo[n+1];
     vector<int> primos;
@@ -25,6 +26,7 @@ int main(){
 
     for(int i=0;i<primos.size();i++)
         cout<<primos[i]<<endl;
+    cout<<"FORAM ENCONTRADOS "<<primos.size()<<" NUMEROS PRIMOS"<<endl;
 
     return 0;
 }
